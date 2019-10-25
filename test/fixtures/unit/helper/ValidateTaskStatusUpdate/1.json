@@ -1,0 +1,18 @@
+{
+    "msg":"yes",
+    "body": 
+        {
+			"id": "",
+            "state": "Andhra Pradesh",
+            "name": "User1",
+           "category": "To DO"
+
+    },
+    "error": true,
+    "exception": "Validation Error",
+    "output": [
+        {
+            "id": "\"id\" is not allowed to be empty"
+        }
+    ]
+}

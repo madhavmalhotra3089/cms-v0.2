@@ -1,0 +1,18 @@
+{
+    "msg":"yes",
+    "body": 
+        {
+			"id": "24f036be-a019-4ec7-abf8-8857e2bd7901",
+            "state": "Andhra Pradesh",
+            "name": "User1",
+           "category": "Not Calling"
+
+    },
+    "error": true,
+    "exception": "Validation Error",
+    "output": [
+        {
+            "category": "\"category\" must be one of [To DO, Inprogress, Done]"
+        }
+    ]
+}

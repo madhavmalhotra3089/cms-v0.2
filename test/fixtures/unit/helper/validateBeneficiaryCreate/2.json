@@ -1,0 +1,11 @@
+{
+    "msg":"yes",
+    "body": {
+        "mobile": "8888888888",
+        "state": "f2435897-f46f-467f-b968-9640f61717d",
+        "source": "Exotel"
+    },
+    "error": true,
+    "exception": "Validation Error",
+    "output": [{ "state": "\"state\" must be a valid GUID" }]
+}

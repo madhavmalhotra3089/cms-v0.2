@@ -1,0 +1,11 @@
+{
+    "msg":"yes",
+    "body": {
+        "mobile": "888888888",
+        "state": "f2435897-f46f-467f-b968-9640f61717dc",
+        "source": "Exotel"
+    },
+    "error": true,
+    "exception": "Validation Error",
+    "output": [{ "mobile": "\"mobile\" length must be 10 characters long" }]
+}

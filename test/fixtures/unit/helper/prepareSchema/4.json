@@ -1,0 +1,7 @@
+{
+    "token": "someToken",
+    "req": {
+        "title": "Register Student",
+        "schema": {"components":[]}
+    }
+}

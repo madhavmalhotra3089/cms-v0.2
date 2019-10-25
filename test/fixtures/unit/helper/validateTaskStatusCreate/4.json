@@ -1,0 +1,15 @@
+{
+    "msg":"yes",
+    "body": {
+        "name": "STATUS1",
+        "state": "123",
+        "category": "To DO"
+    },
+    "error": true,
+    "exception": "Validation Error",
+    "output": [
+        {
+            "state": "\"state\" must be a valid GUID"
+        }
+    ]
+}

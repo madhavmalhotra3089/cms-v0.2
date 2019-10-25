@@ -1,0 +1,15 @@
+{
+    "msg":"yes",
+    "body": {
+        "state": "f2435897-f46f-467f-b968-9640f61717dc",
+         "discription": "test User",
+        "category": "To DO"
+    },
+    "error": true,
+    "exception": "Validation Error",
+    "output": [
+        {
+            "name": "\"name\" is required"
+        }
+    ]
+}

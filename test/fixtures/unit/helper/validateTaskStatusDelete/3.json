@@ -1,0 +1,15 @@
+{
+    "msg":"yes",
+    "body": 
+        {
+			"id": ["a89eea78-eb1a-4863-aff5-7f0e24eb7191"],
+			"deleted": ""
+},
+    "error": true,
+    "exception": "Validation Error",
+    "output": [
+        {
+            "deleted": "\"deleted\" must be a boolean"
+        }
+    ]
+}

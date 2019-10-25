@@ -1,0 +1,11 @@
+{
+    "token": "someToken",
+    "req": {
+        "state":"Madhya Pradesh",
+        "title": "Register Student",
+        "schema": {"components":[]}
+    },
+    "user": {
+        "mobile": "9995463210"
+    }
+}

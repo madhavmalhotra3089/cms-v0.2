@@ -1,0 +1,10 @@
+{
+    "body": {},
+    "error": true,
+    "exception": "Validation Error",
+    "output": [
+        {
+            "id": "\"id\" is required"
+        }
+    ]
+}

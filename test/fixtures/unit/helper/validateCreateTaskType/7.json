@@ -1,0 +1,16 @@
+{
+    "body":{
+        "name": "someName",
+        "state": "someState",
+        "form": {
+            "formId": "something"
+        },
+        "sla": 1,
+        "cycle": "cycle name",
+        "sequence": 2,
+        "description": "randomString"
+    },
+    "message": {
+        "form": "\"value\" contains [formId] without its required peers [formPath]"
+    }
+}

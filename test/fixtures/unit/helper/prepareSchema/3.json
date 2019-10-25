@@ -1,0 +1,8 @@
+{
+    "token": "someToken",
+    "req": {
+        "state":"Madhya Pradesh",
+        "title": "Register Student",
+        "schema": {"components":[]}
+    }
+}

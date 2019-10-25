@@ -1,0 +1,8 @@
+{
+    "body": {
+        "name": 1234
+    },
+    "message": {
+        "name": "\"name\" must be a string"
+    }
+}

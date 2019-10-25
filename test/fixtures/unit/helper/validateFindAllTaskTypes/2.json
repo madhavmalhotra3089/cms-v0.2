@@ -1,0 +1,8 @@
+{
+    "body": {
+        "page_size": -2
+    },
+    "message": {
+        "page_size": "\"page_size\" must be a positive number"
+    }
+}

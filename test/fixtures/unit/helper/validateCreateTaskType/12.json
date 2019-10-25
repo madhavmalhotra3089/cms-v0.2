@@ -1,0 +1,12 @@
+{
+    "body":{
+        "name": "someName",
+        "state": "someState",
+        "sla": "1",
+        "sequence": "a2",
+        "description": "randomString"
+    },
+    "message": {
+        "cycle": "\"cycle\" is required"
+    }
+}

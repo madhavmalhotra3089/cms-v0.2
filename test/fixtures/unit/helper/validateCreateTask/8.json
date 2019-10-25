@@ -1,0 +1,13 @@
+{
+    "msg":"yes",
+    "body": {
+        "type": "f2435897-f46f-467f-b968-9640f61717dc",
+        "status": "f2435897-f46f-467f-b968-9640f61717dc",
+        "beneficiary": "f2435897-f46f-467f-b968-9640f61717dc",
+        "assignee": "f2435897-f46f-467f-b968-9640f61717d",
+        "state": "f2435897-f46f-467f-b968-9640f61717dc"
+    },
+    "error": true,
+    "exception": "Validation Error",
+    "output": [{ "assignee": "\"assignee\" must be a valid GUID" }]
+}

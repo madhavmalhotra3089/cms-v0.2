@@ -1,0 +1,8 @@
+{
+    "body": {
+        "state":  1234
+    },
+    "message": {
+        "state": "\"state\" must be a string"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "token": "someToken",
+    "req": {
+        "state":"Madhya Pradesh",
+        "title": "Register Student",
+        "schema": {"components":[]}
+    },
+    "user": {
+        "email": "world@war.com",
+        "mobile": "9995463210"
+    }
+}

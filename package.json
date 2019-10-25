@@ -1,0 +1,87 @@
+{
+  "name": "cms-services",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "@sailshq/connect-redis": "^3.2.1",
+    "@sailshq/lodash": "^3.10.3",
+    "@sailshq/socket.io-redis": "^5.2.0",
+    "axios": "^0.19.0",
+    "csv-writer": "^1.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-promise": "^4.1.1",
+    "grunt": "1.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.17.3",
+    "kue": "^0.11.6",
+    "kue-scheduler": "^0.9.7",
+    "lodash.camelcase": "^4.3.0",
+    "msg91": "0.0.6",
+    "node-uuid": "^1.4.8",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.1",
+    "pg": "^7.11.0",
+    "prettier-eslint-cli": "^4.7.1",
+    "sails": "^1.2.2",
+    "sails-hook-grunt": "^4.0.0",
+    "sails-hook-organics": "^1.0.0",
+    "sails-hook-orm": "^2.1.1",
+    "sails-hook-sockets": "^2.0.0",
+    "sails-mongo": "^1.0.1",
+    "sails-postgresql": "^1.0.2",
+    "sendotp": "^1.2.9",
+    "sinon": "^7.3.2",
+    "sinon-chai": "^3.3.0",
+    "store": "^2.0.12",
+    "uuid4": "^1.1.4"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.17.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.16.0",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "mocha": "^6.1.4",
+    "sinon": "^7.3.2",
+    "supertest": "^4.0.2"
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --fix",
+      "prettier-eslint --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "start-dev": "prettier-eslint **/*.js **/**/*.js --write && nodemon app.js",
+    "test": "npx mocha test/lifecycle.test.js test/**/**/*.test.js",
+    "lint": "eslint **/*.js --fix",
+    "prettify": "prettier-eslint **/*.js **/**/*.js --write ",
+    "custom-tests": "echo \"(No other custom tests yet.)\" && echo",
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run",
+    "seed-test": "knex seed:run --env test",
+    "set-database": "npm run migrate && npm run seed && npm run seed-test"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anonymous node/sails user/cms-services.git"
+  },
+  "author": "anonymous node/sails user",
+  "license": "",
+  "engines": {
+    "node": "^10.15"
+  }
+}

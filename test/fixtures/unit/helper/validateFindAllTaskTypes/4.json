@@ -1,0 +1,8 @@
+{
+    "body": {
+        "after": "invalid_after_token"
+    },
+    "message": {
+        "after": "\"after\" with value \"invalid_after_token\" fails to match the continuation_token pattern"
+    }
+}

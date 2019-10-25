@@ -1,0 +1,10 @@
+{
+    "msg":"yes",
+    "body": {
+        "mobile": "8888888888",
+        "source": "Exotel"
+    },
+    "error": true,
+    "exception": "Validation Error",
+    "output": [{ "state": "\"state\" is required" }]
+}

@@ -1,0 +1,15 @@
+{
+    "msg":"yes",
+    "body": {
+        "name": "STATUS1",
+        "state": "f2435897-f46f-467f-b968-9640f61717dc",
+        "category": "CAT"
+    },
+    "error": true,
+    "exception": "Validation Error",
+    "output": [
+        {
+            "category": "\"category\" must be one of [To Do, Inprogress, Done]"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "body": {
+        "page_size": "a1"
+    },
+    "message": {
+        "page_size": "\"page_size\" must be a number"
+    }
+}

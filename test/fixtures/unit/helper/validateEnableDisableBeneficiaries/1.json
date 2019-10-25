@@ -1,0 +1,13 @@
+{
+  "body": {
+    "id":["234244bc-fbab-40e7-8b89-03c8462a5021","f584c871-8fc6-456d-a175-ee4cbf7bb13f"],
+    "deleted":""
+  },
+  "error": true,
+  "exception": "Validation Error",
+  "output": [
+    {
+      "deleted": "\"deleted\" must be a boolean"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "msg":"yes",
+    "body": {
+        "name": "STATUS1",
+        "category": "To DO"
+    },
+    "error": true,
+    "exception": "Validation Error",
+    "output": [
+        {
+            "state": "\"state\" is required"
+        }
+    ]
+}

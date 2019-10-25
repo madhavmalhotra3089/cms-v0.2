@@ -1,0 +1,15 @@
+{
+    "msg":"yes",
+    "body": {
+        "name": "",
+        "state": "f2435897-f46f-467f-b968-9640f61717dc",
+        "category": "To DO"
+    },
+    "error": true,
+    "exception": "Validation Error",
+    "output": [
+        {
+            "name": "\"name\" is not allowed to be empty"
+        }
+    ]
+}

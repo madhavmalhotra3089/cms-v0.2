@@ -1,0 +1,14 @@
+{
+    "body":{
+        "name": 12345,
+        "state": "someStateId",
+        "form": {},
+        "sla": 1,
+        "cycle": "cycle name",
+        "sequence": 2,
+        "description": "randomString"
+    },
+    "message": {
+        "name": "\"name\" must be a string"
+    }
+}
